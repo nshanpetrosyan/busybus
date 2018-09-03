@@ -5,10 +5,13 @@
 body {
 	background: #41465d;
 	margin: 0 auto;
-	font-family: Brandon Grotesque;
   font-size: 17px;
 	font-style: normal;
 	color: #282c37;
+	font-family: Brandon Grotesque;
+	src:url('../fonts/Brandon Grotesque/Brandon_bld.otf') format('truetype');
+	src:url('../fonts/Brandon Grotesque/Brandon_reg.otf') format('truetype');
+	src:url('../fonts/Brandon Grotesque/Brandon_reg.otf') format('truetype');
 }
 
 h1 {
