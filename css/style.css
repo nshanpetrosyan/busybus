@@ -9,11 +9,14 @@ body {
 	font-style: normal;
 	color: #282c37;
 	font-family: Brandon Grotesque;
-	src:url('../fonts/Brandon Grotesque/Brandon_bld.otf') format('truetype');
-	src:url('../fonts/Brandon Grotesque/Brandon_reg.otf') format('truetype');
-	src:url('../fonts/Brandon Grotesque/Brandon_reg.otf') format('truetype');
 }
 
+@@font-face {
+font-family: Brandon Grotesque;
+src:url('../fonts/Brandon Grotesque/Brandon_bld.otf') format('truetype');
+src:url('../fonts/Brandon Grotesque/Brandon_reg.otf') format('truetype');
+src:url('../fonts/Brandon Grotesque/Brandon_reg.otf') format('truetype');
+}
 h1 {
 	font-size: 1.5em;
 	font-weight: bold;
