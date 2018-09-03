@@ -22,8 +22,8 @@
 
 
       <!-- List -->
-      <div class="list-container">
-
+      <div class="gradient"></div>
+      <div class="pop-over">
         <!-- List Header -->
         <div class="list-header">
           <div class="icon-fav"></div>
@@ -32,17 +32,92 @@
             <p>Alert <span class="alert-box">6</span> delayed</p>
           </div>
       </div>
-      <div class="listing">
-        <div class="direction">
-          <p>Eastbound</p>
+
+      <!-- Listings -->
+      <div class="list-container">
+        <!-- Eastbound -->
+        <div class="listing">
+          <ul class="list-item">
+            <li class="list-direction east">Eastbound</li>
+            <li class="list-bus">60</li>
+            <li class="list-dest">Randolph & Harbor Dr</li>
+            <li class="list-arvl">3 min</li>
+            <li class="arrow-right"></li>
+            <li class="list-freq">Every 20 min</li>
+          </ul>
+          <ul class="list-item">
+            <li class="list-bus">124</li>
+            <li class="list-dest">Navy Pier</li>
+            <li class="list-arvl">7 min</li>
+            <li class="arrow-right"></li>
+            <li class="list-freq">Every 10 min</li>
+          </ul>
         </div>
-        <ul class="list-item">
-          <li class="list-bus">123</li>
-          <li class="list-dest">Randolph & Harbor Dr</li>
-          <li class="list-arvl">3 min</li>
-          <li class="list-freq">Every 20 min</li>
-          <li class="arrow-right"></li>
-        </ul>
+        <!-- Northbound -->
+        <div class="listing top-space">
+          <ul class="list-item">
+            <li class="list-direction north">Northbound</li>
+            <li class="list-bus">151</li>
+            <li class="list-dest">Devon & Clark</li>
+            <li class="list-arvl">9 min</li>
+            <li class="arrow-right"></li>
+            <li class="list-freq">Every 16 min</li>
+          </ul>
+        </div>
+        <!-- Southbound -->
+        <div class="listing top-space">
+          <ul class="list-item">
+            <li class="list-direction south">Southbound</li>
+            <li class="list-bus">151</li>
+            <li class="list-dest">103rd & Stony Island</li>
+            <li class="list-arvl">1 min</li>
+            <li class="arrow-right"></li>
+            <li class="list-freq">Every 15 min</li>
+          </ul>
+          <ul class="list-item">
+            <li class="list-bus">124</li>
+            <li class="list-dest">Navy Pier</li>
+            <li class="list-arvl">4 min</li>
+            <li class="arrow-right"></li>
+            <li class="list-freq">Every 10 min</li>
+          </ul>
+        </div>
+        <!-- Reroute -->
+        <div class="listing top-space">
+          <ul class="list-item">
+            <li class="list-direction reroute">Reroute</li>
+            <li class="list-bus">6x</li>
+            <li class="list-dest">Jackson Park Express</li>
+            <li class="list-arvl">9 min</li>
+            <li class="arrow-right"></li>
+            <li class="list-freq"></li>
+          </ul>
+        </div>
+        <!-- Out of Service -->
+        <div class="listing top-space noservice gray">
+          <ul class="list-item">
+            <li class="list-direction">Out of Sevice</li>
+            <li class="list-bus">4</li>
+            <li class="list-dest">Cottage Grove</li>
+            <li class="list-arvl"></li>
+            <li class="arrow-right"></li>
+            <li class="list-freq">Resumes 12:10am</li>
+          </ul>
+          <ul class="list-item">
+            <li class="list-bus">20</li>
+            <li class="list-dest">Madison</li>
+            <li class="list-arvl"></li>
+            <li class="arrow-right"></li>
+            <li class="list-freq">Resumes 12:10am</li>
+          </ul>
+          <ul class="list-item">
+            <li class="list-bus">157</li>
+            <li class="list-dest">Streeterville & Taylor</li>
+            <li class="list-arvl"></li>
+            <li class="arrow-right"></li>
+            <li class="list-freq">Resumes 6:00am</li>
+          </ul>
+        </div>
       </div>
     </section>
   </body>
