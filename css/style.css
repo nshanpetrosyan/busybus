@@ -17,13 +17,13 @@ body {
 }
 @font-face {
 	font-family: "Brandon Grotesque";
-	src:url('../fonts/Brandon Grotesque/Brandon_med.otf') format('opentype');
 	font-weight: medium;
+	src:url('../fonts/Brandon Grotesque/Brandon_med.otf') format('opentype');
 }
 @font-face {
 	font-family: "Brandon Grotesque";
-	src:url('../fonts/Brandon Grotesque/Brandon_bld.otf') format('opentype');
 	font-weight: bold;
+	src:url('../fonts/Brandon Grotesque/Brandon_bld.otf') format('opentype');
 }
 h1 {
 	font-size: 1.5em;
