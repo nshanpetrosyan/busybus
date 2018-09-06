@@ -8,8 +8,9 @@ body {
   font-size: 17px;
 	font-style: normal;
 	color: #282c37;
-	font-family: Brandon Grotesque;
+	font-family: 'Brandon Grotesque', 'Lato', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 @font-face {
 	font-family: "Brandon Grotesque";
@@ -30,7 +31,7 @@ h1 {
 	font-weight: bold;
 }
 
-.container {
+section {
 	margin: 0 auto;
 	margin-top: 5%;
 	background: url("../img/map.png");
@@ -72,7 +73,7 @@ h1 {
 .search-text {
 	float: left;
 	padding: 12px 0 0 16px;
-	font-size: 1.1em;
+	font-size: 1em;
 	color: #8E8E93;
 }
 .icon-search {
@@ -193,7 +194,7 @@ padding-top: 12px;
 	padding: 25px 0 0 12px;
 	width: 62%;
 	font-weight: bold;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	color: rgb(40, 44, 55);
 }
 .list-arvl {
