@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 *, *:before, *:after {
 	box-sizing: border-box;
 }
@@ -9,9 +11,8 @@ body {
 	font-style: normal;
 	color: #282c37;
 	font-family: 'Brandon Grotesque', 'Lato', sans-serif;
-}
-@import url('https://fonts.googleapis.com/css?family=Lato');
 
+}
 @font-face {
 	font-family: "Brandon Grotesque";
 	src:url('../fonts/Brandon Grotesque/Brandon_reg.otf') format('opentype');
@@ -37,6 +38,7 @@ section {
 	background: url("../img/map.png");
 	background-repeat:no-repeat;
 	background-position: bottom;
+	background-size: contain;
   width: 375px;
 	height: 667px;
 	position: relative;
@@ -140,12 +142,12 @@ padding-top: 12px;
 	color: rgba(40, 44, 55, 0.5);
 }
 .alert-box {
-	color: rgba(40, 44, 55, 1);
+	color: rgba(255, 255, 255, 1);
 	font-weight: bold;
 	font-size: 0.8em;
 	padding: 0px 8px;
 	border-radius: 6px;
-	border: solid 2px rgba(40, 44, 55, 1);
+	background: rgba(40, 44, 55, 1);
 }
 .icon-fav {
 	width: 30px;
@@ -219,7 +221,13 @@ padding-top: 12px;
 	text-transform: uppercase;
 	color: rgba(40, 44, 55, 0.5);
 }
-
+.list-end {
+	margin: 40px 0 40px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	color: rgba(40, 44, 55, 0.5);
+}
 
 /**** SPECIAL MODS ****/
 .top-space {
