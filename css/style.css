@@ -43,6 +43,7 @@ section {
 	height: 667px;
 	position: relative;
 	overflow: hidden;
+	border-radius: 8px;
 }
 
 
