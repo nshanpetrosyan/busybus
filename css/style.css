@@ -5,7 +5,7 @@
 }
 
 body {
-	background: #41465d;
+	background: rgba(40, 44, 55, 1);
 	margin: 0 auto;
   font-size: 17px;
 	font-style: normal;
@@ -27,6 +27,20 @@ body {
 	font-weight: bold;
 	src:url('../fonts/Brandon Grotesque/Brandon_bld.otf') format('opentype');
 }
+.logo {
+	font-size: 4em;
+	font-weight: bold;
+	margin: 50px 0 0 0;
+	color: #FFCC00;
+	text-align: center;
+}
+.author {
+	font-size: 1.2em;
+	font-weight: lighter;
+	color: rgba(255, 255, 255, 0.85);
+	text-align: center;
+	margin: 0 0 0 190px;
+}
 h1 {
 	font-size: 1.5em;
 	font-weight: bold;
@@ -44,6 +58,8 @@ section {
 	position: relative;
 	overflow: hidden;
 	border-radius: 8px;
+	box-shadow: 0 50px 150px 0 rgba(0, 0, 0, 0.3);
+
 }
 
 
